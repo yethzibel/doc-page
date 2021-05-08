@@ -33,7 +33,7 @@ body {
 }
 
 .nav-link:hover {
-	color: #fcdc00
+	color: #fcdc00;
 }
 
 .li-link {
@@ -81,7 +81,11 @@ body {
 }
 
 #main-doc {
-	width: 78%
+	width: 78%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%; 
 	background: #202020;
 }
 
@@ -103,7 +107,6 @@ h1 {
 
 code {
     margin-left: -20px;
-    width: 100%;
     padding: 15px;
     padding-left: 10px;
     padding-right: 45px;
