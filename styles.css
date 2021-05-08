@@ -1,13 +1,15 @@
 /* this is are the main styles for the Technical Documentation Page about JS*/
+
 html {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Gilroy";
 	font-size: 0.8rem;
 	color: #fff;
-	background-color: #000;
+	background: #202020;
 	margin: 0;
 }
 
@@ -43,8 +45,18 @@ body {
 
 .header {
 	font-size: 1.2rem;
-	margin-left: 0;
-	margin-right: 0%;
+	text-align: center;
+	margin: 20%;
+}
+
+.header > a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 1s;
+}
+
+.header > a:hover {
+	color: #fcdc00;
 }
 
 #hero {
@@ -60,7 +72,7 @@ body {
 
 .text {
 	width: 20%;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin-left: 25%;
 	margin-top: 0;
 	padding-top: 30px;
@@ -69,8 +81,9 @@ body {
 .text-layout {
 	width: 25%;
 	text-align: center;
-	margin-left: 35%;
-	margin-top: 25%;
+	font-weight: bold;
+	margin-left: 45%;
+	margin-top: 18%;
 	color: #000;
 }
 
@@ -80,19 +93,25 @@ body {
 
 }
 
+.text-layout > a {
+	color: #000;
+	text-decoration: none;
+}
+
 #main-doc {
-	width: 78%;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-bottom: 1%;
-	padding-top: 1%; 
-	background: #202020;
+	width: 80%;
+	margin-left: 20%;
 }
 
 header {
 	margin-left: 2rem;
 	font-size: 2rem;
 	font-weight: bold;
+}
+
+.main-section {
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 article {
@@ -129,7 +148,8 @@ code {
 
 
 @media (max-width: 749px) {
-	.navbar {padding-top: 15px;}
-  	.navbar a {font-size: 18px;}
-
+	.text {
+		font-size: 1.1rem;
+		margin-left: 5%;
+	}
 }
