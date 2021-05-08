@@ -1,4 +1,5 @@
 /* this is are the main styles for the Technical Documentation Page about JS*/
+
 html {
 	overflow-x: hidden;
 }
@@ -49,11 +50,6 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-#main-container {
-	transition: margin-left .5s;
-	padding: 16px;
 }
 
 .li-link {
@@ -149,7 +145,8 @@ code {
 
 
 @media (max-width: 749px) {
-	.navbar {padding-top: 15px;}
-  	.navbar a {font-size: 18px;}
-
+	.text {
+		font-size: 1.1rem;
+		margin-left: 5%;
+	}
 }
