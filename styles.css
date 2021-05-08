@@ -6,6 +6,7 @@ html {
 }
 
 body {
+	width: 100%;
 	font-family: "Gilroy";
 	font-size: 0.8rem;
 	color: #fff;
@@ -14,6 +15,7 @@ body {
 }
 
 .container {
+	width: 100%;
 	display: flex;
 }
 
@@ -148,8 +150,22 @@ code {
 
 
 @media (max-width: 749px) {
+	.container {
+		width: 100%;
+		display: flex;
+	}
+	#hero {
+		height: 90vw;
+		width: 100%;
+    }
+	
 	.text {
 		font-size: 1.1rem;
 		margin-left: 5%;
 	}
+
+	header {
+		margin-top: 20%;
+	}
+
 }
