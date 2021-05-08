@@ -92,6 +92,11 @@ body {
 
 }
 
+.text-layout > a {
+	color: #000;
+	text-decoration: none;
+}
+
 #main-doc {
 	width: 80%;
 	margin-left: 20%;
