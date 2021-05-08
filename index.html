@@ -7,10 +7,9 @@
 	<title>Technical Documentation Page</title>
 </head>
 <body>
-	<div class="container" id="main-container">
-		<nav id="navbar SideNav" class="navbar">
+	<div class="container">
+		<nav id="navbar" class="navbar">
 			<header class="header">JS DOCUMENTATION</header>
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<ul>
 				<li class="li-link"><a class="nav-link" href="#Introduction">Introduction</a></li><br>
 				<li class="li-link"><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li><br>
@@ -21,22 +20,6 @@
 				<li class="li-link"><a class="nav-link" href="#Function_declarations">Function declarations</a></li><br>
 			</ul>
 		</nav>
-
-		<span style="font-size: 30px; cursor:pointer" onclick="openNav()"> &#9776; </span>
-
-		<script>
-			function openNav() {
-			  document.getElementById("SideNav").style.width = "15vw";
-			  document.getElementById("main-container").style.marginLeft = "15vw";
-			  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-			}
-
-			function closeNav() {
-			  document.getElementById("SideNav").style.width = "0";
-			  document.getElementById("main-container").style.marginLeft= "0";
-			  document.body.style.backgroundColor = "white";
-			}
-		</script>
 
 		<div class="content">
 			<section class="hero" id="hero">
