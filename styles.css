@@ -92,7 +92,6 @@ body {
 .text-layout > h1 {
 	color: #000;
 	margin-bottom: 3%;
-
 }
 
 .text-layout > a {
@@ -168,4 +167,32 @@ code {
 		margin-top: 20%;
 	}
 
+}
+
+@media (min-width: 749px) {
+	#navbar {
+		width: 30%;
+		z-index: 1;
+	}
+
+	.text {
+		font-size: 1.7rem;
+		margin-left: 33%;
+		padding-top: 10px;
+	}
+
+	.text-layout {
+		margin-top: 10%;
+		margin-left: 50%;
+	}
+
+	.text-h1 {
+		font-size: 1rem;
+		margin-bottom: 3px;
+	}
+
+	#main-doc {
+		width: 70%;
+		margin-left: 30%;
+	}
 }
