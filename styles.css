@@ -148,28 +148,7 @@ code {
 }
 
 
-@media (max-width: 749px) {
-	.container {
-		width: 100%;
-		display: flex;
-	}
-	#hero {
-		height: 90vw;
-		width: 100%;
-    }
-	
-	.text {
-		font-size: 1.1rem;
-		margin-left: 5%;
-	}
-
-	header {
-		margin-top: 20%;
-	}
-
-}
-
-@media (min-width: 749px) {
+@media (max-width: 992px) {
 	#navbar {
 		width: 30%;
 		z-index: 1;
